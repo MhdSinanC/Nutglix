@@ -74,7 +74,7 @@ body {
 /* Hero Section */
 .hero {
     height: 80vh;
-    background: linear-gradient(to bottom,rgba(0,0,0,0.4)0%,rgba(0,0,0,0.8)100%),url("images/Stranger_Things_Cast1.jpg")center/cover;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.4)0%,rgba(0,0,0,0.8)100%),url("images/maxresdefault.jpg")center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
