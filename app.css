@@ -17,6 +17,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    height: 4rem;
     padding: 20px 60px;
     display: flex;
     align-items: center;
@@ -31,7 +32,7 @@ body {
 }
 
 .logo {
-    height: 25px;
+    height: 100px;
     cursor: pointer;
 }
 
@@ -73,7 +74,7 @@ body {
 /* Hero Section */
 .hero {
     height: 80vh;
-    background: linear-gradient(to bottom,rgba(0,0,0,0.4)0%,rgba(0,0,0,0.8)100%),url("https://www.nme.com/wp-content/uploads/2022/05/Stranger_Things_Cast.jpg")center/cover;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.4)0%,rgba(0,0,0,0.8)100%),url("images/Stranger_Things_Cast1.jpg")center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -212,12 +213,12 @@ body {
 }
 
 
-/* Netflix Badge  */
-.netflix-badge {
+/* nutglix Badge  */
+.nutglix-badge {
     position: absolute;
     top: 8px;
     left: 8px;
-    background-color: #e50914;
+    background-color: #e46d1b;
     color: white;
     width: 24px;
     height: 24px;
@@ -231,7 +232,7 @@ body {
 }
 
 
-/* Card-Overlay with Netflix-style Controls */
+/* Card-Overlay with nutglix-style Controls */
 .card-overlay {
     position: absolute;
     top: 0;
@@ -271,6 +272,7 @@ body {
     letter-spacing: 1px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
     margin-bottom: 10px;
+    margin-left: 1.2rem;
 }
 
 .overlay-controls {
@@ -395,7 +397,7 @@ body {
         margin-bottom: 15px;
     }
 
-    .netflix-badge {
+    .nutglix-badge {
         width: 20px;
         height: 20px;
         font-size: 12px;
@@ -450,7 +452,7 @@ body {
         font-size: 1.2rem;
     }
 
-    .netflix-badge {
+    .nutglix-badge {
         width: 18px;
         height: 18px;
         font-size: 10px;
